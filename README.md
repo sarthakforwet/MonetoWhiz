@@ -1,5 +1,7 @@
 # MonetoWhiz
 
+![](./readme_pic.JPG)
+
 ## Description: 
 An application used to convert the image of user into a beautiful monet in just a few seconds.
 
@@ -9,3 +11,6 @@ the application. Make sure to create a Virtual Environment prior to installing d
 
 ## Usage:
 Once you've done with the dependencies, you are required to run the `app.py` file to run the `PyQt5` application.
+
+Note: You would be needing to download the `.h5` file from the assets in order
+to generate the monet.
