@@ -15,7 +15,7 @@ def predict(img_path):
         #img = tf.image.decode_jpeg(image, channels=3)
         img = tf.cast(img, tf.float32)
         img = img/127.5 - 1
-        img = tf.reshape(img, [256, 256, 3])
+        img = tf.image.resize(img, [256, 256])
         return img
 
     img = decode_img(img)
