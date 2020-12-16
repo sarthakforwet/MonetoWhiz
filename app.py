@@ -19,6 +19,7 @@ class MonetoWhiz(QWidget):
 
     def initUI(self):
         self.layout = QGridLayout(self)
+        self.setWindowTitle("MonetoWhiz")
         self.center()
         self.buildArch()
         self.qButton()
