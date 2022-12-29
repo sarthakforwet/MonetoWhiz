@@ -1,1 +1,4 @@
 PyQt5
+chatterbot
+pyautogui
+pytz
